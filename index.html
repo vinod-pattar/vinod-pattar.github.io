@@ -3,77 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LinkedIn About Description</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        h1 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li {
-            margin: 10px 0;
-        }
-        .contact-info a {
-            color: #0073b1;
-            text-decoration: none;
-        }
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Profile Page</title>
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- FontAwesome 5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>About</h1>
-        <p>Hello! I'm <strong>[Your Name]</strong>, a passionate and dedicated <strong>[Your Profession/Role]</strong> with a strong background in <strong>[Your Industry/Field]</strong>. Over the past <strong>[Number]</strong> years, I've honed my skills in <strong>[Key Skills/Expertise Areas]</strong>, delivering exceptional results and driving success in every project I undertake.</p>
-        
-        <h2>What I Bring to the Table:</h2>
+    <!-- Navbar top -->
+    <div class="navbar-top">
+        <div class="title">
+            <h1>Profile</h1>
+        </div>
+
+        <!-- Navbar -->
         <ul>
-            <li><strong>Expertise</strong>: With a solid foundation in <strong>[Specific Technologies/Skills]</strong>, I excel at <strong>[Brief Description of Key Strengths and Achievements]</strong>.</li>
-            <li><strong>Innovation</strong>: I thrive on creative problem-solving and continuously seek out new challenges that push the boundaries of what's possible.</li>
-            <li><strong>Collaboration</strong>: A strong believer in the power of teamwork, I actively contribute to and learn from diverse, cross-functional teams to achieve common goals.</li>
-            <li><strong>Continuous Learning</strong>: I'm committed to staying at the forefront of my field, constantly updating my knowledge and skills through <strong>[Courses, Certifications, Workshops, etc.]</strong>.</li>
+            <li>
+                <a href="#message">
+                    <span class="icon-count">29</span>
+                    <i class="fa fa-envelope fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#notification">
+                    <span class="icon-count">59</span>
+                    <i class="fa fa-bell fa-2x"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#sign-out">
+                    <i class="fa fa-sign-out-alt fa-2x"></i>
+                </a>
+            </li>
         </ul>
-        
-        <h2>Career Highlights:</h2>
-        <ul>
-            <li><strong>Project/Role 1</strong>: Led <strong>[Project Name/Role]</strong>, achieving <strong>[Key Achievement]</strong> using <strong>[Technologies/Skills]</strong>.</li>
-            <li><strong>Project/Role 2</strong>: Spearheaded <strong>[Initiative/Project]</strong>, resulting in <strong>[Impact/Outcome]</strong>.</li>
-            <li><strong>Project/Role 3</strong>: Collaborated on <strong>[Project/Task]</strong>, enhancing <strong>[Specific Area]</strong> and improving <strong>[Result]</strong>.</li>
-        </ul>
-        
-        <h2>Education & Credentials:</h2>
-        <ul>
-            <li><strong>[Degree]</strong> in <strong>[Field]</strong> from <strong>[University/Institution]</strong></li>
-            <li><strong>[Certification]</strong> in <strong>[Relevant Area]</strong></li>
-            <li>Continuous professional development through <strong>[Courses, Workshops, etc.]</strong></li>
-        </ul>
-        
-        <h2>What Drives Me:</h2>
-        <p>I'm passionate about <strong>[Your Passion/Interest]</strong> and believe in leveraging technology to create meaningful change. Whether it's through <strong>[Your Specialty]</strong>, <strong>[Your Other Interest]</strong>, or <strong>[Another Area of Expertise]</strong>, I strive to make a positive impact on the world around me.</p>
-        
-        <h2>Let's Connect:</h2>
-        <p>I'm always excited to connect with like-minded professionals, explore new opportunities, and collaborate on innovative projects. Feel free to reach out to me via LinkedIn or at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+        <!-- End -->
     </div>
+    <!-- End -->
+
+    <!-- Sidenav -->
+    <div class="sidenav">
+        <div class="profile">
+            <img src="https://imdezcode.files.wordpress.com/2020/02/imdezcode-logo.png" alt="" width="100" height="100">
+
+            <div class="name">
+                ImDezCode
+            </div>
+            <div class="job">
+                Web Developer
+            </div>
+        </div>
+
+        <div class="sidenav-url">
+            <div class="url">
+                <a href="#profile" class="active">Profile</a>
+                <hr align="center">
+            </div>
+            <div class="url">
+                <a href="#settings">Settings</a>
+                <hr align="center">
+            </div>
+        </div>
+    </div>
+    <!-- End -->
+
+    <!-- Main -->
+    <div class="main">
+        <h2>IDENTITY</h2>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Name</td>
+                            <td>:</td>
+                            <td>ImDezCode</td>
+                        </tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>:</td>
+                            <td>imdezcode@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Address</td>
+                            <td>:</td>
+                            <td>Bali, Indonesia</td>
+                        </tr>
+                        <tr>
+                            <td>Hobbies</td>
+                            <td>:</td>
+                            <td>Diving, Reading Book</td>
+                        </tr>
+                        <tr>
+                            <td>Job</td>
+                            <td>:</td>
+                            <td>Web Developer</td>
+                        </tr>
+                        <tr>
+                            <td>Skill</td>
+                            <td>:</td>
+                            <td>PHP, HTML, CSS, Java</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h2>SOCIAL MEDIA</h2>
+        <div class="card">
+            <div class="card-body">
+                <i class="fa fa-pen fa-xs edit"></i>
+                <div class="social-media">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-invision fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-whatsapp fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-snapchat fa-stack-1x fa-inverse"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End -->
 </body>
 </html>
