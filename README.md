@@ -1,65 +1,90 @@
-# 🚀 Vinod Pattar's GitHub Portfolio
+# Vinod Pattar
 
-Welcome to my GitHub portfolio! I'm Vinod Pattar, a passionate full-stack developer with a focus on Python and Django development. Here, you'll find some of my favorite projects and contributions in web development, backend systems, and more. Feel free to explore, contribute, and get in touch with me for any collaboration!
+![Certified Full Stack Developer](https://img.shields.io/badge/Full%20Stack%20Developer-Certified-green)
 
----
+### Hi there! 👋
+I'm Vinod Pattar, a dedicated and results-oriented Computer Science student with a passion for **web development**. I'm proficient in **Python**, **Django**, and **ReactJS**, with a strong foundation in full-stack development. Eager to leverage my skills to contribute to innovative projects and deliver exceptional user experiences.
 
-## 🛠️ Skills
-
-- **Languages**: Python, JavaScript, HTML, CSS
-- **Frameworks/Libraries**: Django, ReactJS, Bootstrap
-- **Databases**: PostgreSQL, MySQL, SQLite
-- **Tools**: Git, Docker, VSCode, Postman, Jenkins
-- **Cloud**: AWS (S3, EC2, RDS), Heroku
-- **Others**: RESTful APIs, Unit Testing, Agile, Scrum
+📍 **Location:** Bengaluru  
+📧 **Email:** [vinodpattar13@gmail.com](mailto:vinodpattar13@gmail.com)  
+🔗 **GitHub:** [vinod-pattar](https://github.com/vinod-pattar)  
 
 ---
 
-## 📂 Projects
+## 🎓 Education
+- **Bachelor of Engineering in Computer Science**  
+  Alvas Institute of Technology and Education  
+  GPA: 8.3  
+  March 2022 - Present
 
-### 1. [Expense Manager](https://github.com/vinod-pattar/expense-manager) 💰
-A simple web application to track personal expenses with features like category-wise reporting, multi-currency support, and more.
-- **Tech Stack**: Django, SQLite, Bootstrap, Chart.js
-- **Features**: User Authentication, Expense Categories, Visual Reports
-
-### 2. [Calendar Reminder Web App](https://github.com/vinod-pattar/calendar-reminder-app) 📅
-A calendar-based reminder application that sends notifications via email. It was created as an assignment for engineering students.
-- **Tech Stack**: Django, PostgreSQL, ReactJS, Bootstrap
-- **Features**: Event Reminders, Notification System, Responsive Design
-
-### 3. [E-commerce Website](https://github.com/vinod-pattar/ecommerce-website) 🛒
-A full-stack Django project with complete e-commerce functionality such as product listings, shopping cart, and order checkout.
-- **Tech Stack**: Django, MySQL, Stripe API, Bootstrap
-- **Features**: Product Management, Order System, Payment Gateway Integration
-
-### 4. [Ice Cream Shop Web App](https://github.com/vinod-pattar/ice-cream-shop) 🍦
-A custom online ordering system for an ice cream shop. Customers can choose their flavors and get them delivered.
-- **Tech Stack**: Django, PostgreSQL, HTML/CSS, JavaScript
-- **Features**: Order Management, Product Filtering, User Dashboard
+- **PCMB (Pre-University)**  
+  ST. Aloysius PU College  
+  GPA: 8.5  
+  Completed: March 2022  
 
 ---
 
-## 📊 GitHub Stats
+## 🛠 Projects
 
-![Vinod Pattar's GitHub stats](https://github-readme-stats.vercel.app/api?username=vinod-pattar&show_icons=true&theme=radical)
+### Email Reminder System
+- **Description:** A no-code solution for automated email reminders.
+- **Tech Stack:** Pabbly, Airtable, Gmail SMTP, Tally Forms
+- **Date:** November 2024
+- **Details:** This system automates the process of sending timely email reminders, improving efficiency and reducing manual effort.
+
+### Leads Management System
+- **Description:** Automates lead capture and management workflow.
+- **Tech Stack:** Google Forms, Zapier, Airtable
+- **Date:** November 2024
+- **Details:** Streamlines lead collection, organization, and tracking, boosting lead conversion rates.
+
+### eCommerce Platform
+- **Description:** A scalable and robust online shopping platform.
+- **Tech Stack:** Python, Django, DRF, MySQL, ReactJS, HTML, CSS
+- **Date:** December 2024
+- **Details:** Provides a user-friendly interface, secure payment processing, and efficient inventory management.
+
+### Hospital Management System
+- **Description:** Comprehensive management system for hospitals.
+- **Tech Stack:** Django, ReactJS, HTML, CSS, No-Code Tools
+- **Date:** January 2025
+- **Details:** Features include patient record management, appointment scheduling, billing, and inventory control.
 
 ---
 
-## 📝 Blog Posts
-
-- [Building a REST API in Django](https://yourbloglink.com/building-rest-api)
-- [Introduction to AWS for Beginners](https://yourbloglink.com/aws-for-beginners)
-
----
-
-## 🤝 Connect with Me
-
-- LinkedIn: [YourLinkedInProfile](https://www.linkedin.com/in/vinod-pattar)
-- Twitter: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-- Email: [youremail@example.com](mailto:youremail@example.com)
+## 🧑‍💻 Skills
+- Python
+- Django
+- ReactJS
+- HTML, CSS, JavaScript
 
 ---
 
-## 📄 License
+## 🌱 Interests
+- Exploring Large Language Models (LLMs)
+- Swimming
 
-This repository is licensed under the MIT License. See the [LICENSE](https://github.com/vinod-pattar/repository-name/blob/main/LICENSE) file for more details.
+---
+
+## 📜 Certifications
+- **Python Full Stack Developer** - MicroDegree, Jan 2025
+- **JavaScript Developer** - MicroDegree, Jan 2025
+- **ReactJS Developer** - MicroDegree, Jan 2025
+- **MySQL** - MicroDegree, Jan 2025
+
+---
+
+## 🏆 Awards
+- **1st Prize** - Inter-College Quiz Competition
+- **2nd Prize** - Skit during Annual Day
+
+---
+
+## 🌐 Languages
+- Kannada
+- English
+- Hindi
+
+---
+
+Thanks for visiting my profile! Feel free to reach out for any collaboration or just to connect.
